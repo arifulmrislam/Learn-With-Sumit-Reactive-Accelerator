@@ -123,3 +123,14 @@ console.log(lang); */
 //         console.log('Hello')
 //         break;
 // }
+
+//ternary operator
+
+// const x = 11;
+
+// console.log(x == 10 ? true : x != 10 || x < 10 ? "why" : "something else");
+
+//Nullish coalescing
+
+let lang = 'Python';
+console.log(lang ?? 'Javascript');
