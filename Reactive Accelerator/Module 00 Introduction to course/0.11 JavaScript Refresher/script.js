@@ -52,11 +52,26 @@ console.log(lang); */
 //     }
 // }
 
-// console.log(Object.keys(obj.education));
+// console.log(Object.keys(obj));
 // console.log(Object.values(obj));
-// const {name, age} = obj;
+// console.log(Object.entries(obj));
 
-// console.log(name, age);
+// Dynamic way
+// const a = "popularity";
+// const obj = {
+//     name: "Ariful",
+//     age: 29,
+//     education: {
+//     school: "High School",
+//     certificate: "SSC 4.94",
+//     },
+// };
+// obj[a] = '100%';
+// console.log(obj);
+
+// const {name, age, education} = obj;
+
+// console.log(name, age, `${education.school}`);
 
 // const dogFactory = (name, age, breed) => {
 //     return {
@@ -96,7 +111,7 @@ console.log(lang); */
 // console.log(engine.start('noisily'));
 // console.log(engine.sputter);
 
-//spread
+// spread
 
 // const arr = ["Mango", "Banana", "Pineapple", "Orange", "Apple", "Watermelon"];
 // const arr1 = [...arr];
@@ -132,5 +147,42 @@ console.log(lang); */
 
 //Nullish coalescing
 
-let lang = 'Python';
-console.log(lang ?? 'Javascript');
+// let lang = 'Python';
+// console.log(lang ?? 'Javascript');
+
+// Destructuring
+// const object ={
+//     name:'Ariful Islam',
+//     age:45,
+//     education:{
+//         school_name:'Tejgaon Adarsh School and College',
+//         Degree:'Graduate',
+//     }
+// }
+
+// const {name, age} = object;
+// const {education:{school_name,Degree}}= {} = object;
+
+// // console.log(name, age);
+// console.log(school_name,Degree);
+
+// optional chaining
+
+// const object ={
+//     name:'Ariful Islam',
+//     age:45,
+//     education:{
+//         school_name:'Tejgaon Adarsh School and College',
+//         Degree:'Graduate',
+//     }
+// }
+
+// console.log(object.name, object.age);
+
+// Nullish
+
+// let lang = null;
+
+// console.log(lang ?? 'JavaScript');
+// console.log(lang || 'JavaScript');
+// console.log(lang && 'JavaScript');
