@@ -1,13 +1,13 @@
-import './App.css'
+import './App.css';
+import PackingList from './Packing';
+
+
+
 
 function App() {
-
-
     return (
         <>
-        <div>
-            <p>Hello World!!</p>
-        </div>
+            <PackingList/>
         </>
     )
 }
